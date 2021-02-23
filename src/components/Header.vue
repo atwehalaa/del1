@@ -1,5 +1,5 @@
 <template>
-<div>
+<div id="">
  <b-navbar toggleable="lg" type="dark" class="fixed-top" variant="dark">
     <div class="container">
       <b-navbar-brand href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWmG6CyjpFKw2ol_sO5Fsevm7Cy9C-e5M4Vw&usqp=CAU" style="width:40px; height:40px" alt=""></b-navbar-brand>

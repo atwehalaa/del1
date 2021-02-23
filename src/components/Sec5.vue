@@ -106,12 +106,12 @@ export default {
 </script>
 
 <style>
-.index3 ul.w3l-right-book-grid {
+.index3 ul.right-book-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 0 20px; }
 
-.index3 ul.w3l-right-book li {
+.index3 ul.right-book li {
   margin-bottom: 10px;
   color: var(--font-color);
   font-size: 19px;
@@ -119,7 +119,7 @@ export default {
   font-weight: 400;
   list-style-type: none; }
 
-.index3 ul.w3l-right-book li span {
+.index3 ul.right-book li span {
   font-size: 12px;
   margin-right: 16px;
   opacity: 0.4; }
@@ -131,7 +131,7 @@ export default {
   border-bottom-right-radius: var(--border-radius);
   box-shadow: 0px 9px 24px 5px rgba(0, 0, 0, 0.04); }
 
-.w3l-left-img {
+.left-img {
   background: url(../assets/images/who.jpg) no-repeat center center;
   background-size: cover;
   position: relative;
@@ -147,7 +147,7 @@ export default {
   border-bottom-left-radius: var(--border-radius);
   height: 100%; }
 
-.w3l-left-img2 {
+.left-img2 {
   background: url(../assets/images/about1.jpg) no-repeat center center;
   background-size: cover;
   position: relative;
@@ -156,7 +156,7 @@ export default {
   height: 100%; }
 
 @media (max-width: 991px) {
-  .w3l-left-img, .left-img1, .w3l-left-img2 {
+  .w3l-left-img, .left-img1, .left-img2 {
     height: 300px;
     border-radius: 0;
     border-top-right-radius: var(--border-radius);
@@ -165,14 +165,14 @@ export default {
 @media (max-width: 736px) {
   .right-info {
     padding: 60px 40px; }
-  .index3 ul.w3l-right-book li {
+  .index3 ul.right-book li {
     font-size: 17px; } }
 
 @media (max-width: 480px) {
-  .index3 ul.w3l-right-book-grid {
+  .index3 ul.right-book-grid {
     grid-template-columns: 1fr;
     grid-gap: 0 0px; }
-  .index3 ul.w3l-right-book li {
+  .index3 ul.right-book li {
     display: grid;
     grid-template-columns: auto 1fr; } }
 
@@ -180,15 +180,15 @@ export default {
   .right-info {
     padding: 40px 20px; } }
 
-.w3l-bottom-grids {
+.bottom-grids {
   background: var(--bg-color); }
 
-.w3l-bottom-grids .area-box {
+.bottom-grids .area-box {
   padding: 0px 25px;
   border-radius: var(--border-radius);
   text-align: center; }
 
-.w3l-bottom-grids .area-box h5 {
+.bottom-grids .area-box h5 {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -197,11 +197,11 @@ export default {
   color: var(--font-color);
   opacity: .6; }
 
-.w3l-bottom-grids .grids-feature span.fa {
+.bottom-grids .grids-feature span.fa {
   color: var(--primary-color);
   font-size: 30px; }
 
-.w3l-bottom-grids h4 a.title-head {
+.bottom-grids h4 a.title-head {
   font-size: 22px;
   font-weight: 600;
   margin-top: 25px;
@@ -209,24 +209,24 @@ export default {
   display: block;
   color: var(--heading-color); }
 
-.w3l-bottom-grids h4 a.title-head:hover {
+.bottom-grids h4 a.title-head:hover {
   color: var(--primary-color); }
 
 @media (max-width: 1080px) {
-  .w3l-bottom-grids .area-box {
+  .bottom-grids .area-box {
     padding: 40px 10px 0px; } }
 
 @media (max-width: 991px) {
-  .w3l-bottom-grids {
+  .bottom-grids {
     position: relative;
     z-index: 1;
     margin-top: 0px; } }
 
 @media (max-width: 480px) {
-  .w3l-bottom-grids h4 a.title-head {
+  .bottom-grids h4 a.title-head {
     font-size: 22px;
     letter-spacing: 0; }
-  .w3l-bottom-grids .area-box {
+  .bottom-grids .area-box {
     padding: 20px 10px 0px; } }
 
 .client-grid {
@@ -262,10 +262,6 @@ p.indentity {
     grid-template-columns: 1fr;
     grid-gap: 20px; } }
 
-.w3l-companies-hny-6 {
-  background: var(--bg-color);
-  border-bottom: 1px solid var(--border-color-light); }
-
 .company-gd a img {
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%); }
@@ -274,13 +270,13 @@ p.indentity {
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%); }
 
-.w3l-news .blog-info {
+.news .blog-info {
   padding: 35px 25px;
   border: 1px solid var(--border-color);
   border-bottom-left-radius: var(--border-radius);
   border-bottom-right-radius: var(--border-radius); }
 
-.w3l-news .grids5-info {
+.news .grids5-info {
   position: relative;
   transition: 0.3s ease-in;
   display: block;
@@ -290,46 +286,46 @@ p.indentity {
   border-bottom-left-radius: var(--border-radius);
   border-bottom-right-radius: var(--border-radius); }
 
-.w3l-news a.zoom {
+.news a.zoom {
   overflow: hidden;
   border-top-left-radius: var(--border-radius);
   border-top-right-radius: var(--border-radius); }
 
-.w3l-news a.zoom img {
+.news a.zoom img {
   transition: 0.3s ease-in-out; }
 
-.w3l-news .grids5-info:hover img {
+.news .grids5-info:hover img {
   overflow: hidden;
   transform: scale(1.1);
   transition: 0.3s ease-in-out; }
 
-.w3l-news img.news-image {
+.news img.news-image {
   border-top-left-radius: var(--border-radius);
   border-top-right-radius: var(--border-radius); }
 
-.w3l-news .grids5-info h4 a {
+.news .grids5-info h4 a {
   font-size: 22px;
   line-height: 27px;
   color: var(--heading-color);
   display: block;
   font-weight: 600; }
 
-.w3l-news .grids5-info h4 a:hover {
+.news .grids5-info h4 a:hover {
   color: var(--primary-color); }
 
-.w3l-news .grids5-info p {
+.news .grids5-info p {
   margin-top: 15px; }
 
-.w3l-news p.date {
+.news p.date {
   font-size: 15px;
   margin-top: 8px;
   color: #949494; }
 
-.w3l-news .grids5-info img {
+.news .grids5-info img {
   width: 100%;
   display: block; }
 
-.w3l-news a.btn-news {
+.news a.btn-news {
   padding: 0;
   border-bottom: 2px solid var(--primary-color);
   color: var(--heading-color);
@@ -337,39 +333,39 @@ p.indentity {
   font-weight: 600;
   border-radius: 0; }
 
-.w3l-news a.btn-news:hover {
+.news a.btn-news:hover {
   letter-spacing: 1px;
   transition: 0.3s ease-in-out; }
 
 @media all and (max-width: 1280px) {
-  .w3l-news .d-grid {
+  .news .d-grid {
     grid-gap: 15px; } }
 
 @media all and (max-width: 1080px) {
-  .w3l-news .d-grid {
+  .news .d-grid {
     grid-template-columns: 1fr 1fr; } }
 
 @media all and (max-width: 800px) {
-  .w3l-news .d-grid {
+  .news .d-grid {
     grid-gap: 30px; } }
 
 @media all and (max-width: 768px) {
-  .w3l-news .grids5-info h4 a {
+  .news .grids5-info h4 a {
     font-size: 20px;
     line-height: 25px; } }
 
 @media all and (max-width: 668px) {
-  .w3l-news .d-grid {
+  .news .d-grid {
     grid-template-columns: 1fr; } }
 
 @media all and (max-width: 568px) {
-  .w3l-news .d-grid {
+  .news .d-grid {
     grid-template-columns: 1fr; }
-  .w3l-news .grids5-info p {
+  .news .grids5-info p {
     margin-top: 12px; } }
 
 @media all and (max-width: 414px) {
-  .w3l-news .grids5-info h4 a {
+  .news .grids5-info h4 a {
     font-size: 20px; } }
 
 a.category {

@@ -35,7 +35,7 @@
     </div>
  </section>
 <!-- /bottom-grids-->
-<section class="w3l-bottom-grids py-5" id="steps">
+<section class="bottom-grids py-5" id="steps">
     <div class="container py-lg-5 py-md-4 py-2">
         <div class="grids-area-hny main-cont-wthree-fea row">
             <div class="col-lg-4 col-md-6 grids-feature">
@@ -145,15 +145,15 @@ export default {
   .right-info {
     padding: 40px 20px; } }
 
-.w3l-bottom-grids {
+.bottom-grids {
   background: var(--bg-color); }
 
-.w3l-bottom-grids .area-box {
+.bottom-grids .area-box {
   padding: 0px 25px;
   border-radius: var(--border-radius);
   text-align: center; }
 
-.w3l-bottom-grids .area-box h5 {
+.bottom-grids .area-box h5 {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
@@ -162,11 +162,11 @@ export default {
   color: var(--font-color);
   opacity: .6; }
 
-.w3l-bottom-grids .grids-feature span.fa {
+.bottom-grids .grids-feature span.fa {
   color: var(--primary-color);
   font-size: 30px; }
 
-.w3l-bottom-grids h4 a.title-head {
+.bottom-grids h4 a.title-head {
   font-size: 22px;
   font-weight: 600;
   margin-top: 25px;
@@ -174,24 +174,24 @@ export default {
   display: block;
   color: var(--heading-color); }
 
-.w3l-bottom-grids h4 a.title-head:hover {
+.bottom-grids h4 a.title-head:hover {
   color: var(--primary-color); }
 
 @media (max-width: 1080px) {
-  .w3l-bottom-grids .area-box {
+  .bottom-grids .area-box {
     padding: 40px 10px 0px; } }
 
 @media (max-width: 991px) {
-  .w3l-bottom-grids {
+  .bottom-grids {
     position: relative;
     z-index: 1;
     margin-top: 0px; } }
 
 @media (max-width: 480px) {
-  .w3l-bottom-grids h4 a.title-head {
+  .bottom-grids h4 a.title-head {
     font-size: 22px;
     letter-spacing: 0; }
-  .w3l-bottom-grids .area-box {
+  .bottom-grids .area-box {
     padding: 20px 10px 0px; } }
 
 .client-grid {
